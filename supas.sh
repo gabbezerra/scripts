@@ -1,7 +1,7 @@
 #!/bin/sh
 # Last Update: November 25 2020
 # Author: Gabriel Bezerra
-# Email gabriel.bezerra@digivox.com.br
+# Email gabrielbl258@gmail.com
 
 << 'CHANGELOG'
   1.0 - 10/07/2019 [ Author: Gabriel Bezerra ]
@@ -12,15 +12,8 @@ CHANGELOG
 
 # Para executar eval "$(curl -s caminho do repo)"
 # Função principal, listar todas as funções disponíveis
-function supas (){
-echo -e '
-                          ____  _       _                
-                        |  _ \(_) __ _(_)_   _______  __                                                                                               
-                        | | | | |/ _` | \ \ / / _ \ \/ /                                                                                               
-                        | |_| | | (_| | |\ V / (_) >  <                                                                                                
-                        |____/|_|\__, |_| \_/ \___/_/\_\                                                                                               
-                                 |___/                                      
-'
+function supas (){                
+
 echo -e "\nAmbiente de Suporte :: Lista de Funcoes\n======================================="
 echo -e "\nSIPSERVER\n=======================================\n"
 
